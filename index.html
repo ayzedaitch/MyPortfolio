@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Adam</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="select()">HOME</a></li>
+                    <li><a href="#about" onclick="select()">ABOUT</a></li>
+                    <li><a href="#skills" onclick="select()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="select()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="select()">PORTFOLIO</a></li>
+                    <li><a href="#contact" onclick="select()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showHideMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section id="home" class="home">
+        <div class="content-banner">
+            <div class="container-img">
+                <img src="img/adam-01.png" alt="">
+            </div>
+            <h1>Adam Houlihal</h1>
+            <h2>Software Engineering Student</h2>
+            <div class="social">
+                <a href="https://www.facebook.com/adam.houlihal.2002/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/zzz.ayzedaitch/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/AyZedAitch1" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/adam-houlihal-688597250/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="content-section">
+            <h2>About Me</h2>
+            <p><span>Hello, I am Adam Houlihal.</span> I am a Software Engineering Student at National School Of Applied Sciences Fez, currently I'm working on Web Developement both front-end and back-end. I'm so Interested in Cyber Security especially Penetration Testing. Thus, I hope getting the chance to learn about this field more, and practice in some real life scenarios. So I am ready and very passionate to discover new tips and tricks to build a successful career.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Personal information</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            23-11-2002
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            +212 642-951546
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            adam.houlihal@usmba.ac.ma
+                        </li>
+                        <li>
+                            <strong>Address</strong>
+                            Fez, Morocco
+                        </li>
+                        <li>
+                            <strong>Post</strong>
+                            <span>STUDENT</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="container-interests">
+                        <div class="interest">
+                            <i class="fa-solid fa-code"></i>
+                            <span>CODING</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <span>SECURITY</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-brands fa-linux"></i>
+                            <span>LINUX</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-medal"></i>
+                            <span>SPORT</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARS</span>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <button id="cvBtn">
+                DOWNLOAD CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="content-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Web Development</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>NodeJs</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Programming Languages</h3>
+                    <div class="skill">
+                        <span>C/C++</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bash</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Matlab</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum" class="curriculum">
+        <div class="content-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <div class="item izq">
+                        <h4>Bacalaureat</h4>
+                        <span class="casa">IPEP 3</span>
+                        <span class="fecha">2019 - 2020</span>
+                        <p>I had my baccalaureate in mathematical science B. I chose this branch so that I could have a general idea about the
+                        field of engineering.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq last">
+                        <h4 id="swap00">1st Year Software Engineering</h4>
+                        <span class="casa">National School Of Applied Sciences</span>
+                        <span class="fecha" id="swap11">2022 - 2023</span>
+                        <p id="swap22">This is the first year as a software engineering student, where we cover some basics of this field like: OOP, Hardware and so forth...</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha" id="newRight0">
+                    <div class="item der" id="newRight1">
+                        <h4 id="swap0">Preparatory Classes</h4>
+                        <span class="casa">National School Of Applied Sciences</span>
+                        <span class="fecha" id="swap1">2020 - 2022</span>
+                        <p id="swap2">During 2 years of preparatory classes, we covered modules of mathematics and of certain fields of engineering like:
+                        computer engineering, mechanics, hardware and so forth...</p>
+                        <div class="conectord" id="newRight2">
+                            <div class="circulod" id="newRight3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="content-section">
+            <h2>PORTFOLIO</h2>
+            <div class="gallery">
+                <div class="project">
+                    <img src="img/p1.png" alt="">
+                    <a href="https://www.linkedin.com/posts/adam-houlihal-688597250_hackathon-collaborativeabrlearning-commitment-activity-6991351545200001024-ijBr" target="_blank">
+                        <div class="overlay">
+                            <h3>E-learning Platform</h3>
+                            <p>Hackathon</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <img src="img/p2.png" alt="">
+                    <a href="https://ayzedaitch.github.io/Food-Recipe/" target="_blank">
+                        <div class="overlay">
+                            <h3>Food Recipe</h3>
+                            <p>Project</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <img src="img/p3.png" alt="">
+                    <a
+                        href="https://ayzedaitch.github.io/MovieDB/" target="_blank">
+                    <div class="overlay">
+                        <h3>Movie DB</h3>
+                        <p>Project</p>
+                    </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <img src="img/p4.png" alt="">
+                    <a href="https://ayzedaitch.github.io/File-Downloader/" target="_blank">
+                        <div class="overlay">
+                            <h3>File Downloader</h3>
+                            <p>Project</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="content-section">
+            <h2>CONTACT</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="E-mail Address">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <div class="sending"><h4>Your message was send.</h4></div>
+                    <button class="sending-btn">
+                        Send Message<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <div class="col">
+                    <img src="img/location.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Fez, Morocco
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Phone: +212 642-951546
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: adam.houlihal@usmba.ac.ma
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#home" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="social">
+            <a href="https://www.facebook.com/adam.houlihal.2002/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/zzz.ayzedaitch/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/AyZedAitch1" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/adam-houlihal-688597250/" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
