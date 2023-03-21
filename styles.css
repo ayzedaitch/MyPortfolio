@@ -279,7 +279,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .node{
@@ -288,7 +288,7 @@ html{
 }
 @keyframes node {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 75%;}
 }
 
 .skills .skill .php{
@@ -306,7 +306,7 @@ html{
 }
 @keyframes sql {
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .c{
